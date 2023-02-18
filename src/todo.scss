@@ -1,0 +1,21 @@
+// src > todo.scss
+body{background-color: #ddd;}
+ul{list-style-type: none; padding:0;}
+h2{
+    position:relative;
+    a{
+        position:absolute; right:0; top:0;
+        font-size:1rem;
+    }
+}
+.todo{
+    width:400px; 
+    margin:100px auto;
+    border-radius: 30px;
+    padding:40px;
+    background-color: white;
+    li{
+        border-bottom:1px solid #000;
+        padding:15px 0;
+    }
+}
